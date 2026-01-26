@@ -1,0 +1,58 @@
+\# Screen Time Monitor
+
+
+
+\## Description
+
+A Python-based screen time monitoring tool that tracks system usage duration and helps users understand their daily activity patterns.
+
+
+
+\## Features
+
+\- Tracks total screen usage time
+
+\- Real-time monitoring
+
+\- Simple and lightweight
+
+\- Beginner-friendly implementation
+
+
+
+\## Technologies Used
+
+\- Python
+
+\- Time module
+
+\- GitHub
+
+
+
+\## How It Works
+
+1\. Program starts execution
+
+2\. Timer begins tracking
+
+3\. Continuous loop monitors activity
+
+4\. Usage time is calculated
+
+5\. Output is displayed
+
+
+
+\## Future Improvements
+
+\- GUI interface
+
+\- Daily usage report
+
+\- CSV export feature
+
+\- System tray integration
+
+
+
