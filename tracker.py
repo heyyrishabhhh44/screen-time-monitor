@@ -1,4 +1,6 @@
 import time
+from config import TRACK_INTERVAL
+
 
 print("Screen Time Monitor Started...")
 print("Press CTRL + C to stop tracking")
@@ -7,7 +9,7 @@ start_time = time.time()
 
 try:
     while True:
-        time.sleep(5)
+        time.sleep(TRACK_INTERVAL)
         current_time = time.time()
         elapsed_time = current_time - start_time
         minutes = elapsed_time / 60
