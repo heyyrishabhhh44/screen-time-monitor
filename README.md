@@ -56,3 +56,17 @@ A Python-based screen time monitoring tool that tracks system usage duration and
 
 
 
+\## Setup Instructions
+
+
+
+1\. Install Python
+
+2\. Clone the repository
+
+3\. Open project folder
+
+4\. Run: python tracker.py
+
+
+
