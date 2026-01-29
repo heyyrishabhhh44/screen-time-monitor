@@ -1,0 +1,10 @@
+HOW TO RUN SCREEN TIME MONITOR
+
+1. Install Python
+2. Open terminal or command prompt
+3. Navigate to project folder
+4. Run command:
+
+python tracker.py
+
+5. Press CTRL + C to stop tracking
