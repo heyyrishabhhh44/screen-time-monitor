@@ -1,0 +1,9 @@
+SCREEN TIME MONITOR - PROJECT FLOW
+
+1. Application starts
+2. Configuration file loads settings
+3. Timer initializes
+4. Loop tracks active time
+5. Time is calculated
+6. Output displayed to user
+7. Program stops using keyboard interrupt
