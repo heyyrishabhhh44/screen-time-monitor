@@ -1,9 +1,12 @@
 import time
 from config import TRACK_INTERVAL
 
+APP_VERSION = "1.0"
 
 print("Screen Time Monitor Started...")
 print("Press CTRL + C to stop tracking")
+print("App Version:", APP_VERSION)
+
 
 start_time = time.time()
 
