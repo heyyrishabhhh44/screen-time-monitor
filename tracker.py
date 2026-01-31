@@ -1,4 +1,5 @@
 import time
+import datetime
 from config import TRACK_INTERVAL
 
 APP_VERSION = "1.0"
@@ -17,6 +18,9 @@ try:
         elapsed_time = current_time - start_time
         minutes = elapsed_time / 60
         print(f"Active Screen Time: {round(minutes, 2)} minutes")
+        with open("usage_log.txt", "a") as file:
+        file.write(f"{datetime.datetime.now()} - {round(minutes,2)} minutes\n")
+
 
 
 except KeyboardInterrupt:
