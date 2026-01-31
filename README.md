@@ -70,3 +70,11 @@ A Python-based screen time monitoring tool that tracks system usage duration and
 
 
 
+\## Logging Feature
+
+
+
+The application automatically stores screen usage history in a text file (usage\_log.txt) with timestamps for future reference.
+
+
+
